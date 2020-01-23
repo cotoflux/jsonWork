@@ -10,7 +10,7 @@
         "load_books": {
           "type": "$network.request",
           "options": {
-            "url": "http://192.168.0.111:8002/books"
+            "url": "http://127.0.0.1:8083/books"
           },
           "success": {
             "type": "$render"
